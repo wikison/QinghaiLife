@@ -1,4 +1,4 @@
-package me.wikison.qinghailife;
+package me.wikison.petroleum;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,11 +10,12 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import me.wikison.petroleum.R;
 
 public class MainActivity extends AppCompatActivity {
 
   WebView mWebView;
-  String mUrl = "http://www.qhbxsh.com";
+  String mUrl = "http://www.zhgztw.cn/mobile/";
 
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
